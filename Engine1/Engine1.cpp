@@ -15,7 +15,7 @@ using namespace std;
 class GameWindow : public Gosu::Window {
 public:
 	Gosu::Image bild2; //Servus i bims 1 Maxi
-	Gosu::Image bild;
+	Gosu::Image bild;	//Servus, i bims 1 pälzer
 	Gosu::Image Figur;
 	GameWindow() : Window(1920, 1080) ,bild("tears.jpg"),Figur("Figur2.jpg")
 	{
