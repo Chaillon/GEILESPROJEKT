@@ -14,12 +14,12 @@ using namespace std;
 
 class GameWindow : public Gosu::Window {
 public:
-	
+	Gosu::Image bild2;
 	Gosu::Image bild;
 	Gosu::Image Figur;
 	GameWindow() : Window(1920, 1080) ,bild("tears.jpg"),Figur("Figur2.jpg")
 	{
-		set_caption("Gosu Tutorial Game mit Git");
+		set_caption("Gosu Tutorial Game mit GIT");
 	}
 
 	double x = 0;
